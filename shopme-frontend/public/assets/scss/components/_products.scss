@@ -1,0 +1,56 @@
+/*=============== PRODUCTS ===============*/
+.products{
+   &__container{
+      padding-top: 3.5rem;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 5rem 1.5rem;
+   }
+   &__card{
+      position: relative;
+      background-color: var(--container-color);
+      padding: 5rem .75rem 1.25rem .75rem;
+      border-radius: 1.5rem;
+      box-shadow: 0 8px 24px hsla(353, 100%, 8%, .1);
+   }
+   &__img{
+      width: 120px;
+      position: absolute;
+      top: -3.5rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      filter: var(--shadow-small-img);
+      transition: transform .4s;
+   }
+   &__name{
+      font-size: var(--h3-font-size);
+      margin-bottom: .5rem;
+   }
+   &__price{
+      font-family: var(--second-font);
+      font-size: var(--h1-font-size);
+      line-height: 120%;
+      color: var(--first-color);
+   }
+   &__button{
+      position: absolute;
+      right: .75rem;
+      bottom: 1.25rem;
+      background-color: var(--first-color);
+      color: var(--white-color);
+      padding: 4px;
+      border-radius: .5rem;
+      font-size: 1.5rem;
+      display: inline-flex;
+      box-shadow: 0 4px 16px hsla(353, 100%, 40%, .4);
+      cursor: pointer;
+      transition: background-color .4s;
+
+      &:hover{
+         background-color: var(--first-color-alt);
+      }
+   }
+   &__card:hover &__img{
+      transform: translateY(-.5rem);
+   }
+}

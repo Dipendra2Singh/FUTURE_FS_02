@@ -1,0 +1,30 @@
+/*=============== ABOUT ===============*/
+.about{
+   background-color: var(--container-color);
+
+   &__container{
+      row-gap: 2rem;
+      padding-bottom: 2rem;
+   }
+   &__data{
+      position: relative;
+      text-align: center;
+   }
+   &__data .section__title{
+      margin-bottom: 1rem;
+   }
+   &__description{
+      margin-bottom: 2rem;
+   }
+   &__sticker{
+      width: 40px;
+      position: absolute;
+      right: 0;
+      bottom: 2rem;
+   }
+   &__img{
+      width: 320px;
+      justify-self: center;
+      filter: var(--shadow-big-img);
+   }
+}

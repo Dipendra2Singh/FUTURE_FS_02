@@ -1,0 +1,75 @@
+/*=============== FOOTER ===============*/
+.footer{
+   padding-block: 4rem 2rem;
+
+   &__container,
+   &__content{
+      row-gap: 3rem;
+   }
+   &__logo{
+      justify-self: center;
+      font-size: var(--h1-font-size);
+      font-family: var(--second-font);
+      color: var(--first-color);
+   }
+   &__title{
+      font-size: var(--h3-font-size);
+      margin-bottom: 1rem;
+   }
+   &__social,
+   &__pay,
+   &__form{
+      display: flex;
+      column-gap: 1rem;
+   }
+   &__social-link{
+      font-size: 1.5rem;
+      color: var(--first-color);
+      transition: transform .4s;
+
+      &:hover{
+         transform: translateY(-.25rem);
+      }
+   }
+   &__pay-card{
+      width: 30px;
+      filter: var(--shadow-small-img);
+   }
+   &__form{
+      padding: .5rem;
+      background-color: var(--container-color);
+      box-shadow: 0 4px 16px hsla(353, 100%, 8%, .1);
+      border-radius: 4rem;
+   }
+   &__input{
+      width: 100%;
+      background: transparent;
+      padding-left: .75rem;
+      color: var(--title-color);
+      font-weight: var(--font-semi-bold);
+
+      &::placeholder{
+         color: var(--text-color);
+      }
+   }
+   &__button{
+      padding-block: .75rem;
+      cursor: pointer;
+   }
+   &__policy{
+      display: flex;
+      column-gap: 2rem;
+      justify-content: center;
+      margin-top: 5rem;
+   }
+   &__link{
+      font-size: var(--small-font-size);
+      color: var(--text-color);
+   }
+   &__copy{
+      display: block;
+      margin-top: 2rem;
+      text-align: center;
+      font-size: var(--small-font-size);
+   }
+}

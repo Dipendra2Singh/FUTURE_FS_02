@@ -1,0 +1,30 @@
+/*=============== RECIPE ===============*/
+.recipe{
+   background-color: var(--container-color);
+
+   &__container{
+      row-gap: 2rem;
+      padding-bottom: 2rem;
+   }
+   &__image{
+      width: 60px;
+      filter: var(--shadow-small-img);
+   }
+   &__name{
+      font-size: var(--normal-font-size);
+      margin-bottom: .25rem;
+   }
+   &__description{
+      font-size: var(--small-font-size);
+   }
+   &__ingredient{
+      display: flex;
+      align-items: center;
+      column-gap: .75rem;
+   }
+   &__img{
+      width: 320px;
+      justify-self: center;
+      filter: var(--shadow-big-img);
+   }
+}

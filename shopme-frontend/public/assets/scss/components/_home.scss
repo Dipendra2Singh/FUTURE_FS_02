@@ -1,0 +1,80 @@
+/*=============== HOME ===============*/
+.home{
+   &__container{
+      padding-block: 2rem 3rem;
+      row-gap: 7rem;
+   }
+   &__data{
+      position: relative;
+      text-align: center;
+   }
+   &__title{
+      font-size: var(--biggest-font-size);
+   }
+   &__description{
+      margin-block: 1rem 2rem;
+   }
+   &__sticker-1,
+   &__sticker-2{
+      width: 40px;
+      position: absolute;
+      opacity: .7;
+   }
+   &__sticker-1{
+      right: .75rem;
+      bottom: 2rem;
+      rotate: 30deg;
+   }
+   &__sticker-2{
+      left: 2.5rem;
+      bottom: -4.5rem;
+   }
+   &__images{
+      position: relative;
+      display: grid;
+      justify-items: center;
+      justify-self: center;
+   }
+   &__ingredient{
+      width: 60px;
+      filter: var(--shadow-small-img);
+      position: absolute;
+      z-index: 2;
+   }
+   &__board,
+   &__pizza{
+      filter: var(--shadow-big-img);
+   }
+   &__pizza{
+      width: 300px;
+      z-index: 2;
+   }
+   &__board{
+      width: 300px;
+      position: absolute;
+      bottom: -.5rem;
+      left: -.15rem;
+   }
+   &__leaf-1{
+      top: -1rem;
+   }
+   &__pepperoni{
+      right: -.5rem;
+      top: 2rem;
+   }
+   &__mushroom{
+      right: -.5rem;
+      bottom: 2rem;
+   }
+   &__olive{
+      bottom: -1rem;
+   }
+   &__leaf-2{
+      left: -.5rem;
+      bottom: 2rem;
+   }
+   &__tomato{
+      left: -.5rem;
+      top: 2rem;
+   }
+}
