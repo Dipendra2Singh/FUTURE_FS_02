@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Employee Management Website
 
 A simple full-stack web application that allows administrators to perform CRUD (Create, Read, Update, Delete) operations on employee records.
@@ -20,3 +21,6 @@ Check out the screen recording: [Watch Demo Video](https://github.com/941-Abhi/P
 2. Run `npm install`
 3. Start the server with `npm start`
 4. Open your browser and go to `http://localhost:3000`
+=======
+# PRODIGY_FS_02
+>>>>>>> a6447ebb81ec8479ed7ef6be14809ab9a3e710c7
